@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "typescript": "^5.3.2"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./dist/$day/script.js",
+    "serve": "npx tsc && node ./dist/$day/script.js"
+  }
+}
