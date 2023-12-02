@@ -1,6 +1,6 @@
 import { getInput } from '../util';
 
-const input = getInput("./src/Day1/input.txt", "\n")
+const input = getInput("Day1", "\n")
 
 function part1(document: string[]) {
   let result = 0
